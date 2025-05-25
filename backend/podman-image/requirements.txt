@@ -1,0 +1,16 @@
+numpy
+pandas
+requests
+Flask
+openpyxl
+python-pptx
+matplotlib
+python-docx
+PyPDF2
+fpdf
+pdf2image
+beautifulsoup4
+PyYAML
+pptxtopdf
+imageio
+opencv-python

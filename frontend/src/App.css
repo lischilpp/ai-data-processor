@@ -1,0 +1,167 @@
+/* src/App.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f4f8; /* Light background color */
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.file-upload-container {
+  background: #ffffff; /* White background for the upload container */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  padding: 40px;
+  width: 400px; /* Fixed width */
+  text-align: center; /* Center text in container */
+}
+
+h1 {
+  font-size: 28px; /* Increased font size */
+  margin-bottom: 20px;
+  color: #333; /* Darker color for better contrast */
+}
+
+.dropzone {
+  border: 2px dashed #007bff; /* Blue dashed border */
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  border-radius: 5px; /* Rounded corners */
+  transition: border-color 0.3s ease;
+  cursor: pointer; /* Pointer cursor */
+}
+
+.dropzone:hover {
+  border-color: #0056b3; /* Darker blue on hover */
+}
+
+.file-list {
+  margin-bottom: 50px;
+  /* margin-left: 10px; */
+  text-align: center;
+}
+
+.file-list ul li {
+  text-align: center;
+  margin-bottom: 5px;
+  color: #555; /* Darker text for file names */
+}
+
+.file-list ul li i {
+  margin-right: 8px; /* Space between icon and text */
+  color: #007bff; /* Optional: color for icons */
+}
+
+.description-textarea {
+  width: 100%; /* Full width */
+  padding: 20px;
+  margin-bottom: 20px;
+  height: 200px;
+  border: 1px solid #007bff; /* Blue border */
+  border-radius: 5px; /* Rounded corners */
+  resize: none; /* Disable resizing */
+  box-sizing: border-box;
+}
+
+.submit-button {
+  height: 60px;;
+  padding: 20px 20px;
+  border: none;
+  background-color: #007bff; /* Blue background */
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%; /* Full width button */
+  position: relative;
+}
+
+.submit-button:disabled {
+  background-color: #ccc; /* Gray background for disabled button */
+}
+
+.submit-button:hover:not(:disabled) {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 5px;
+  color: #555; /* Darker text for file names */
+}
+
+.output-section {
+  margin-top: 20px;
+  text-align: left; /* Align download section text to the left */
+}
+
+.download-button {
+  background-color: #28a745; /* Green background */
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%; /* Full width button */
+}
+
+.download-button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+.remove-file-button {
+  margin-left: 10px;
+  background-color: #dc3545; /* Red background */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 2px 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.remove-file-button:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+
+.file-list {
+  text-align: center; /* Center the header */
+  position: relative; /* Allow absolute positioning within this container */
+  margin-bottom: 20px; /* Space below the list */
+}
+
+.file-list-header {
+  position: relative; /* Position relative to allow absolute positioning of button */
+  display: block; /* Align contents within the header */
+}
+
+.file-list-header h3 {
+  margin: 0; /* Remove default margin */
+  display: inline-block; /* Allow centering */
+}
+
+.remove-all-button {
+  position: absolute; /* Absolutely position the button */
+  right: 0; /* Align to the right */
+  margin-left: 10px; /* Space between header and button */
+  background-color: #dc3545; /* Same color as process button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px; /* Padding for the button */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.remove-all-button:hover {
+  background-color: #c82333; /* Darker blue on hover */
+}
+

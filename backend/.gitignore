@@ -1,0 +1,49 @@
+media/uploads/
+db.sqlite3
+
+# Python-related
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Environment variables
+.env
+
+# Django-specific
+db.sqlite3  # SQLite database file
+/media       # User-uploaded files
+/staticfiles  # Collected static files
+
+# Python virtual environment
+venv/
+ENV/
+env/
+env.bak/
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# Test and coverage
+.coverage
+.tox/
+.nosetests.xml
+coverage.xml
+*.cover
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+*.iml
+
+# Miscellaneous
+*.DS_Store
+*.log
+
+shared_files/
