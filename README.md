@@ -1,8 +1,17 @@
-# AI File Processor
+<div align="center">
+  <h1>AI File Processor</h1>
+  <p>
+    <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white">
+    <img src="https://img.shields.io/badge/Django-092E20?logo=django&logoColor=white">
+    <img src="https://img.shields.io/badge/Podman-89BEDE?logo=podman&logoColor=white">
+    <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black">
+  </p>
+  <p><b>AI File Processor</b> is a web-based tool that uses large language models (LLMs) to generate Python code for processing uploaded files. It features a secure, containerized execution environment and supports multi-file workflows.</p>
+</div>
 
-![Logo](readme-image.png)
+![Main image](readme-image.png)
 
-**AI File Processor** is a web-based tool that uses large language models (LLMs) to generate Python code for processing uploaded files. It features a secure, containerized execution environment and supports multi-file workflows.
+
 
 ## 🔧 Features
 
