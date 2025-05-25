@@ -42,15 +42,19 @@
 The installation instructions are tested on Ubuntu 24 using Python 3.12 and may differ depending on your system
 #### Backend
 Navigate to the backend directory and
-1. Put your Groq API key in backend/adp/settings.py
-2. Install podman:   
+1. Generate a secret key for Django and put it into backend/adp/settings.py  
+`python -c 'from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())'`
+2. Put your Groq API key in backend/adp/settings.py
+3. Install podman   
 `sudo apt install podman`   
-3. Create virtual environment  
+4. Create virtual environment  
 `python3 -m venv venv`
-4. Activate virtual environment  
+5. Activate virtual environment  
 `source venv/bin/activate`
-5. Install requirements:  
+6. Install requirements  
 `pip install -r requirements.txt`
+7. Run the server  
+`python manage.py runserver`
 
 #### Frontend
 Navigate to the frontend directory and
